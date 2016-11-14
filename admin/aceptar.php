@@ -9,5 +9,5 @@
 	$titulo = 'Solicitud aceptada!';
 	$mensaje = 'Su solicitud de inscripción ha sido aceptada. Haga click <a target="_BLANK" href="http://cleinecuador.com/log_in.php">aquí</a> para realizar el pago de su inscripción.';
 	$sujeto = 'Solicitud Aceptada';
-	header("Location:http://cleinecuador.com/admin/Template Mail/olvidocontrasenha.php?titulo=".$titulo."&mensaje=".$mensaje."&correo=".$correo."&sujeto=".$sujeto."&tipoMail=admin");
+	header("Location:http://cleinecuador.com/admin/TemplateMail/olvidocontrasenha.php?titulo=".$titulo."&mensaje=".$mensaje."&correo=".$correo."&sujeto=".$sujeto."&tipoMail=admin");
 ?>

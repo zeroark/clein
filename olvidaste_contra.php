@@ -22,9 +22,9 @@
 				if (mysqli_num_rows($valid_email) == 0) {
 					header("Location:http://www.cleinecuador.com/olvidaste_contra.php?solicitud=fallida");
 				} else {
-					require("admin/Template Mail/config.php");
-					require 'admin/Template Mail/PHPMailer-master/PHPMailerAutoload.php';
-					require('admin/Template Mail/mandarmail.php');
+					require("admin/TemplateMail/config.php");
+					require 'admin/TemplateMail/PHPMailer-master/PHPMailerAutoload.php';
+					require('admin/TemplateMail/mandarmail.php');
 
 					$valid_email = mysqli_fetch_assoc($valid_email);
 					$email_forgot = $valid_email['correoElectronico'];

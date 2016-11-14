@@ -30,7 +30,7 @@
 	$mail->msgHTML(preg_replace(array_keys($mailvariables), array_values($mailvariables), file_get_contents('index.php')), dirname(__FILE__));
 		
 	if (!$mail->send()) {
-		echo 'No se envio la solicitud correctamente, favor intente de nuevo más tarde';
+		echo 'No se envio la solicitud correctamente, favor intente de nuevo mas tarde';
 		require('../../inc/conexion.php');
 		if(isset($user_id)){
 			$query= mysqli_query($conexion, "UPDATE login SET estado = 'verificacion' WHERE id = '$user_id'");

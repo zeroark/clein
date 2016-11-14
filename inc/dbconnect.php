@@ -2,9 +2,9 @@
 
 require('conexion.php');
 
-require("../admin/Template Mail/config.php");
-require '../admin/Template Mail/PHPMailer-master/PHPMailerAutoload.php';
-require('../admin/Template Mail/mandarmail.php');
+require("../admin/TemplateMail/config.php");
+require '../admin/TemplateMail/PHPMailer-master/PHPMailerAutoload.php';
+require('../admin/TemplateMail/mandarmail.php');
 
 $nombreyapellidoInput=utf8_decode($_POST['nombreyapellidoInput']);
 $idNumber=$_POST['idNumber'];

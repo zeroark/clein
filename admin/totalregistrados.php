@@ -163,7 +163,7 @@
 		</div>
 		<!-- dropdownmenu -->
 		<div class="container">
-			<form action="Template Mail/comunicado.php" method="post">
+			<form action="TemplateMail/comunicado.php" method="post">
 			    <div class="modal-body">
 			    	<div class="form-group">
 			    		<div class="container" style="padding-left:0px">

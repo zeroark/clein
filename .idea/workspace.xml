@@ -5,7 +5,272 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db618661-d792-474d-8535-a6674185da69" name="Default" comment="Inicial">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/images/phpmailer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/images/phpmailer_mini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/wrapping.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/imgs/bgtop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/imgs/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/imgs/logofacebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/.scrutinizer.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/PHPMailerAutoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/VERSION" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/class.phpmailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/class.pop3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/class.smtp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/docs/Callback_function_notes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/docs/DomainKeys_notes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/docs/Note_for_SMTP_debugging.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/docs/extending.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/docs/faq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/docs/generatedocs.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/docs/pop3_article.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/code_generator.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/contents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/exceptions.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/gmail.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/mail.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/mailing_list.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/pop_before_smtp.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/scripts/XRegExp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/scripts/shAutoloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/scripts/shBrushPhp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/scripts/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/scripts/shLegacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/send_file_upload.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/sendmail.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/smtp.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/smtp_check.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/smtp_no_auth.phps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shCore.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shCoreDjango.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shCoreEclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shCoreEmacs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shCoreFadeToGrey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shCoreMDUltra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shCoreMidnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shCoreRDark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shThemeAppleScript.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shThemeDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shThemeDjango.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shThemeEclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shThemeEmacs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shThemeFadeToGrey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shThemeMDUltra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shThemeMidnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shThemeRDark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/examples/styles/shThemeVisualStudio.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/extras/EasyPeasyICS.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/extras/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/extras/htmlfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/extras/ntlm_sasl_client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-am.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-ar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-az.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-be.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-bg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-br.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-ca.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-ch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-cz.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-de.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-dk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-el.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-eo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-es.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-et.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-fa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-fi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-fo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-fr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-gl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-he.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-hr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-hu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-id.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-it.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-ja.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-ka.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-lt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-lv.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-ms.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-nl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-no.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-pl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-pt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-ro.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-ru.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-se.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-sk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-sl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-sr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-tr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-uk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-vi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-zh.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/language/phpmailer.lang-zh_cn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/test/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/test/fakepopserver.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/test/fakesendmail.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/test/phpmailerLangTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/test/phpmailerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/test/runfakepopserver.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/test/test_callback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/test/testbootstrap-dist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/PHPMailer-master/travis.phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/comunicado.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/mandarmail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/olvidocontrasenha.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/TemplateMail/template.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/.scrutinizer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/PHPMailerAutoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/class.phpmailer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/class.pop3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/class.smtp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/docs/Callback_function_notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/docs/DomainKeys_notes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/docs/Note_for_SMTP_debugging.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/docs/extending.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/docs/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/docs/generatedocs.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/docs/pop3_article.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/code_generator.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/contents.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/exceptions.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/gmail.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/images/phpmailer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/images/phpmailer_mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/mail.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/mailing_list.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/pop_before_smtp.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/scripts/XRegExp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/scripts/shAutoloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/scripts/shBrushPhp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/scripts/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/scripts/shLegacy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/send_file_upload.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/sendmail.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/smtp.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/smtp_check.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/smtp_no_auth.phps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shCore.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shCoreDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shCoreEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shCoreEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shCoreFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shCoreMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shCoreMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shCoreRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shThemeAppleScript.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shThemeDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shThemeDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shThemeEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shThemeEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shThemeFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shThemeMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shThemeMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shThemeRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/shThemeVisualStudio.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/examples/styles/wrapping.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/extras/EasyPeasyICS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/extras/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/extras/htmlfilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/extras/ntlm_sasl_client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-am.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-ar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-az.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-be.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-bg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-br.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-ca.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-ch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-cz.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-de.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-dk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-el.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-eo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-es.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-et.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-fa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-fi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-fo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-fr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-gl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-he.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-hr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-hu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-id.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-it.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-ja.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-ka.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-lt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-lv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-ms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-nl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-no.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-pl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-pt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-ro.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-ru.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-se.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-sk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-sl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-sr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-tr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-uk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-vi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-zh.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/language/phpmailer.lang-zh_cn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/test/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/test/fakepopserver.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/test/fakesendmail.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/test/phpmailerLangTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/test/phpmailerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/test/runfakepopserver.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/test/test_callback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/test/testbootstrap-dist.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/PHPMailer-master/travis.phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/comunicado.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/imgs/bgtop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/imgs/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/imgs/logofacebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/mandarmail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/Template Mail/olvidocontrasenha.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/guia_clein.pdf" afterPath="$PROJECT_DIR$/files/guia_clein.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ftpconfig" afterPath="$PROJECT_DIR$/.ftpconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/aceptar.php" afterPath="$PROJECT_DIR$/admin/aceptar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/aceptarpago.php" afterPath="$PROJECT_DIR$/admin/aceptarpago.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/enviarunmensaje.php" afterPath="$PROJECT_DIR$/admin/enviarunmensaje.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/php/config.php" afterPath="$PROJECT_DIR$/admin/php/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/rechazar.php" afterPath="$PROJECT_DIR$/admin/rechazar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/rechazarpago.php" afterPath="$PROJECT_DIR$/admin/rechazarpago.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/totalregistrados.php" afterPath="$PROJECT_DIR$/admin/totalregistrados.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacto.php" afterPath="$PROJECT_DIR$/contacto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/config.php" afterPath="$PROJECT_DIR$/inc/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/dbconnect.php" afterPath="$PROJECT_DIR$/inc/dbconnect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/olvidaste_contra.php" afterPath="$PROJECT_DIR$/olvidaste_contra.php" />
     </list>
     <ignored path="cleinecuador.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +290,140 @@
     <favorites_list name="cleinecuador.com" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="enviarunmensaje.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/enviarunmensaje.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <marker date="1479084072250" expanded="true" signature="105:162" ph="SELECT corre... login" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="olvidocontrasenha.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/TemplateMail/olvidocontrasenha.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <marker date="1479084072234" expanded="true" signature="1146:1208" ph="UPDATE login... " />
+                <marker date="1479084072234" expanded="true" signature="1248:1315" ph="UPDATE image... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacto.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contacto.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="304" column="115" selection-start-line="304" selection-start-column="115" selection-end-line="304" selection-end-column="115" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/TemplateMail/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mandarmail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/TemplateMail/mandarmail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+              <folding>
+                <marker date="1479085036972" expanded="true" signature="292:318" ph="..." />
+                <marker date="1479085036972" expanded="true" signature="350:362" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comunicado.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/TemplateMail/comunicado.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+              <folding>
+                <marker date="1478808097194" expanded="true" signature="393:428" ph="SELECT corre... login" />
+                <marker date="1478808097194" expanded="true" signature="512:575" ph="SELECT corre... login" />
+                <marker date="1478808097194" expanded="true" signature="661:716" ph="SELECT corre... login" />
+                <marker date="1478808097194" expanded="true" signature="793:850" ph="SELECT corre... login" />
+                <marker date="1478808097194" expanded="true" signature="1807:1869" ph="UPDATE login... " />
+                <marker date="1478808097194" expanded="true" signature="1909:1976" ph="UPDATE image... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/TemplateMail/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="131" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#1;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#2;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#3342#3348#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#3566#3572#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/TemplateMail/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,11 +431,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/contacto.php" />
         <option value="$PROJECT_DIR$/contactoexitoso.php" />
         <option value="$PROJECT_DIR$/pago/Pago.php" />
         <option value="$PROJECT_DIR$/inc/calcularmonto.php" />
-        <option value="$PROJECT_DIR$/inc/config.php" />
         <option value="$PROJECT_DIR$/inc/contactomail.php" />
         <option value="$PROJECT_DIR$/admin/Template Mail/comunicado.php" />
         <option value="$PROJECT_DIR$/admin/Template Mail/index.php" />
@@ -45,7 +441,6 @@
         <option value="$PROJECT_DIR$/admin/aceptarpago.php" />
         <option value="$PROJECT_DIR$/admin/admin.php" />
         <option value="$PROJECT_DIR$/admin/adminpagos.php" />
-        <option value="$PROJECT_DIR$/admin/enviarunmensaje.php" />
         <option value="$PROJECT_DIR$/admin/rechazar.php" />
         <option value="$PROJECT_DIR$/admin/rechazarpago.php" />
         <option value="$PROJECT_DIR$/pago/respuesta.php" />
@@ -63,6 +458,15 @@
         <option value="$PROJECT_DIR$/inc/header.php" />
         <option value="$PROJECT_DIR$/inc/sidebar.php" />
         <option value="$PROJECT_DIR$/inc/footer.php" />
+        <option value="$PROJECT_DIR$/inc/config.php" />
+        <option value="$PROJECT_DIR$/admin/php/config.php" />
+        <option value="$PROJECT_DIR$/admin/enviarunmensaje.php" />
+        <option value="$PROJECT_DIR$/admin/TemplateMail/olvidocontrasenha.php" />
+        <option value="$PROJECT_DIR$/admin/TemplateMail/config.php" />
+        <option value="$PROJECT_DIR$/admin/TemplateMail/template.php" />
+        <option value="$PROJECT_DIR$/admin/TemplateMail/index.php" />
+        <option value="$PROJECT_DIR$/admin/TemplateMail/mandarmail.php" />
+        <option value="$PROJECT_DIR$/contacto.php" />
       </list>
     </option>
   </component>
@@ -107,6 +511,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -125,10 +531,62 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cleinecuador.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cleinecuador.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cleinecuador.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cleinecuador.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TemplateMail" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cleinecuador.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cleinecuador.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TemplateMail" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHPMailer-master" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,6 +669,7 @@
       <workItem from="1478806387026" duration="6665000" />
       <workItem from="1478832041466" duration="631000" />
       <workItem from="1479082837591" duration="323000" />
+      <workItem from="1479083200955" duration="2709000" />
     </task>
     <task id="LOCAL-00001" summary="Inicial">
       <created>1479083032442</created>
@@ -223,7 +682,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7619000" />
+    <option name="totallyTimeSpent" value="10328000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -238,26 +697,26 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.077292114" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26119402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33802816" sideWeight="0.50852877" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23827292" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26385927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33802816" sideWeight="0.4914712" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33802816" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -321,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -330,8 +788,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1478806345620" expanded="true" signature="910:994" ph="SELECT corre... login" />
-            <marker date="1478806345620" expanded="true" signature="1496:1795" ph="INSERT INTO login... " />
+            <marker date="1479084072055" expanded="true" signature="907:991" ph="SELECT corre... login" />
+            <marker date="1479084072055" expanded="true" signature="1493:1792" ph="INSERT INTO login... " />
           </folding>
         </state>
       </provider>
@@ -392,14 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="318" column="44" selection-start-line="318" selection-start-column="44" selection-end-line="318" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pago/Pago.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -414,31 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/contactomail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Template Mail/comunicado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Template Mail/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="24" column="772" selection-start-line="24" selection-start-column="760" selection-end-line="24" selection-end-column="772" />
         </state>
       </provider>
     </entry>
@@ -477,13 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/enviarunmensaje.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/aceptarpago.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -495,20 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Template Mail/mandarmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="13" column="1550" selection-start-line="13" selection-start-column="1550" selection-end-line="13" selection-end-column="1550" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/Template Mail/olvidocontrasenha.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -544,13 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="208" column="21" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/conexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -592,18 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/dbconnect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1478806345620" expanded="true" signature="910:994" ph="SELECT corre... login" />
-            <marker date="1478806345620" expanded="true" signature="1496:1795" ph="INSERT INTO login... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,8 +1036,177 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/inc/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/logincontrol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/dbconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1479082430033" expanded="true" signature="516:547" ph="SELECT * FRO... ${$table}" />
+            <marker date="1479082430033" expanded="true" signature="1127:1150" ph="DELETE FROM " />
+            <marker date="1479082430033" expanded="true" signature="3616:3710" ph="INSERT INTO ${$table}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/dbconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1479084072055" expanded="true" signature="907:991" ph="SELECT corre... login" />
+            <marker date="1479084072055" expanded="true" signature="1493:1792" ph="INSERT INTO login... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/enviarunmensaje.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1479084072250" expanded="true" signature="105:162" ph="SELECT corre... login" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/TemplateMail/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/TemplateMail/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="131" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#1;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#2;n#div#1;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3342#3348#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3566#3572#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/TemplateMail/comunicado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+          <folding>
+            <marker date="1478808097194" expanded="true" signature="393:428" ph="SELECT corre... login" />
+            <marker date="1478808097194" expanded="true" signature="512:575" ph="SELECT corre... login" />
+            <marker date="1478808097194" expanded="true" signature="661:716" ph="SELECT corre... login" />
+            <marker date="1478808097194" expanded="true" signature="793:850" ph="SELECT corre... login" />
+            <marker date="1478808097194" expanded="true" signature="1807:1869" ph="UPDATE login... " />
+            <marker date="1478808097194" expanded="true" signature="1909:1976" ph="UPDATE image... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/TemplateMail/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/TemplateMail/mandarmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <marker date="1479085036972" expanded="true" signature="292:318" ph="..." />
+            <marker date="1479085036972" expanded="true" signature="350:362" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/TemplateMail/olvidocontrasenha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <marker date="1479084072234" expanded="true" signature="1146:1208" ph="UPDATE login... " />
+            <marker date="1479084072234" expanded="true" signature="1248:1315" ph="UPDATE image... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="304" column="115" selection-start-line="304" selection-start-column="115" selection-end-line="304" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAAsMlD2o//tYoLBWj0UtiUtvLBfBxP3NBiaQhDgYjSCsalobDFvRFCfMYE42KxmP0XDkWo5gjE5d0VqBJgyKAMeh/vvylSyH0PdgWhit4OQoomJMOpyDQltSWs4T5P/reSxTfPz3vpTLdftP9jcEBwILnL6xRqxxscg2NrfVMaxwrx0w1Fwibd/KyZTlVTcIW03lYLQajXbiEX72UZ034XjbyGee0Vr88eN9IjGNUBZfXIxzWwMwNb2lO19u+cDScMAg==</data>
+    <data>AAAAsGXNkJ0agxoqt6kEJyubbrzJqQHSQEymwaU3/KSOCcNqXktGkBQr5bCquCeT9eQoeJoqOQWWtO3gIDKWm1zgWnabp3Sqk+bKZLH54u2BX9lPIrAGjvkbljR8+XHT4bFxrusysOa1NerXnx1fpnZTwQU+v6eQtZwrHMquap5NMY34pnsG3NKpZhHDtU31d/Z4UU6aLu8DqDfGo0jcWtoskOtg/HJs8uauYM5/EBkt/O0ctvNd4CsRo9B5LqudpC2SKQ==</data>
   </component>
 </project>

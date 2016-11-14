@@ -15,9 +15,9 @@
 		$descripcion = $result->DescRespAut;
 		//$primerquery= mysqli_query($conexion, "INSERT INTO transacciones (id_pago, uuid, fecha) VALUES ('$user_id', '$uuid', NOW())");
 		if ($resultado == '00') {
-			require("admin/Template Mail/config.php");
-			require 'admin/Template Mail/PHPMailer-master/PHPMailerAutoload.php';
-			require('admin/Template Mail/mandarmail.php');
+			require("admin/TemplateMail/config.php");
+			require 'admin/TemplateMail/PHPMailer-master/PHPMailerAutoload.php';
+			require('admin/TemplateMail/mandarmail.php');
 
 			$query= mysqli_query($conexion, "SELECT * FROM transacciones WHERE uuid = '$uuid'");
 			$datosTrans = mysqli_fetch_assoc($query);
