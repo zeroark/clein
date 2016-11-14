@@ -23,7 +23,7 @@
 <footer>
 	<div class="container">
 		<div class="foot_izq">
-			<p>CLEIN 2017 - Todos los Derechos Reservados</p>
+			<p>CLEIN Ecuador 2017</p>
 		</div>
 
 		<!-- <div class="foot_der">
@@ -34,9 +34,9 @@
 			</ul>
 		</div> -->
 
-		<!-- <div class="foot_izq" style="margin-top:5px">
-			<p>Desarrollado por <a target="_BLANK" href="http://www.noollab.com" style="text-decoration:none">Noollab ©</a></p>
-		</div> -->
+		<div class="foot_der" style="margin-top:5px">
+			<p><a target="_BLANK" href="http://www.aleiiaf.org" style="text-decoration:none">Asociacion Latinoamericana de Estudiantes e Ingenieros Industriales y Afines ALEIIAF</a></p>
+		</div>
 		<div class="clearfix"></div>
 	</div>
 </footer>

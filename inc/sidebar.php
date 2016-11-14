@@ -1,7 +1,7 @@
 <aside>
 	<div class="social">
-		<a href="https://www.facebook.com/cleinpy15" target="_blank" class="facebook">Seguinos en Facebook</a>
-		<a href="https://twitter.com/aleiiafpy" target="_blank" class="twitter">Seguinos en Twitter</a>
+		<a href="https://www.facebook.com/cleinaleiiaf" target="_blank" class="facebook">Seguinos en Facebook</a>
+		<a href="https://twitter.com/aleiiaf" target="_blank" class="twitter">Seguinos en Twitter</a>
 	</div>
 
 	<div class="cuenta_regresiva">

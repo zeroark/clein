@@ -80,11 +80,11 @@
 				<?php
 					} else {
 				?>
-				<li><a href="#">Mi Cuenta</a>
+				<li><a href="mis_cursos.php">Mi Cuenta</a>
 					<ul>
-						<!-- <li><a href="inc/cerrarsesion.php">Cerrar sesión</a></li>
+						<li><a href="inc/cerrarsesion.php">Cerrar sesión</a></li>
 						<li><a href="mis_cursos.php">Mis cursos</a></li>
-						<li><a href="cursos_disponibles.php">Cursos Disponibles</a></li> -->
+						<li><a href="cursos_disponibles.php">Cursos Disponibles</a></li>
 					</ul>
 				</li>
 				<?php

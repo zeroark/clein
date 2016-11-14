@@ -1,3 +1,4 @@
+
 $(function() {
 	$('.estudianteRadio').change(function () {
 	    $('.estudianteRadio').not(this).prop('checked', false);
@@ -19,7 +20,7 @@ $(function() {
 		var aprobadoPass = false;
 		var selectedYear = '';
 		var vacio = true;
-		var host = "http://www.cleinparaguay.com";
+		var host = "http://www.cleinecuador.com";
 
 		for (var i = 0; i < 4; i++) {
 			$('#fechaNacimiento').val()[i];
