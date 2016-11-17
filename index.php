@@ -79,7 +79,7 @@
 		<article>
 
 			<h4>DESAFIO DE LA INGENIERIA EN LAS INDUSTRIAS DE AMERICA
-LATINA<br><strong>CLEIN 2017</strong></h4>
+LATINA "Oportunidades en tiempo de crisis"<br><strong>CLEIN 2017</strong></h4>
 			<p>
 				<img src="images/Bienvenidos.jpg" width="100%">
 			</p>
