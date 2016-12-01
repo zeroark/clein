@@ -14,6 +14,40 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="XXIV Congreso Latinoamericano de Estudiantes e Ingenieros Industriales y Afines">
 	<title>XXIV Congreso Latinoamericano de Estudiantes e Ingenieros Industriales y Afines</title>
+	<meta name="description" content="XXVI CLEIN Ecuador 2017 - Guayaquil del 30 de octubre a 4 de noviembre de 2017">
+	<meta property="og:title" content="CLEIN Ecuador 2017" />
+	<meta property="og:site_name" content="CLEIN Ecuador 2017">
+	<meta property="og:url" content="http://cleinecuador.com">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Guayaquil - Ecuador del 30 de octubre a 4 de noviembre de 2017" />
+	<meta property="og:image" itemprop="image" content="http://cleinecuador.com/images/cleinecuador2017.jpg" />
+	<meta property="og:image:url" content="http://cleinecuador.com/images/cleinecuador2017.jpg">
+	<meta property="og:image:height" content="474">
+	<meta property="og:image:width" content="1280">
+
+
+
+	<script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-66351966-3', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+
+
+
+
+
+
+
+
+
+
+
 	<!--CSS-->
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
