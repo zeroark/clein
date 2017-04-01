@@ -1,3 +1,9 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+require("../../inc/config.php");
+?>
 <html>
 <head><title></title>
     <meta charset="utf-8"/>
@@ -16,7 +22,7 @@
                                 <tbody>
                                 <tr>
                                     <td style="border-bottom: solid 1px #182e53;padding-left:10px"><img
-                                            alt="logox200.gif" src="http://cleinecuador.com/images/logo.png"/></td>
+                                            alt="logox200.gif" src="<?php echo WEB_URL;?>/images/logo.png"/></td>
                                     <td valign="top">
                                         <div style="background-color:#182e53">
                                             <div
@@ -25,13 +31,13 @@
                                                     style="color:#FFFFFF;font-size:14px;font-family:Helvetica, Arial, sans-serif;"></span>
                                             </div>
                                             <div style="padding-top:30px;padding-bottom:5px;text-align:right"><a
-                                                    target="_BLANK" href="http://cleinecuador.com/tematica.php"
+                                                    target="_BLANK" href="<?php echo WEB_URL;?>/tematica.php"
                                                     style="text-decoration:none;"><span
                                                         style="display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:20px;color:#FFFFFF;padding-top:0px;padding-right:20px;padding-bottom:0px;padding-left:0px;">Temática</span></a><a
-                                                    target="_BLANK" href="http://cleinecuador.com/cronograma.php"
+                                                    target="_BLANK" href="<?php echo WEB_URL;?>/cronograma.php"
                                                     style="text-decoration:none;"><span
                                                         style="display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:20px;color:#FFFFFF;padding-top:0px;padding-right:20px;padding-bottom:0px;padding-left:0px;">Cronograma</span></a><a
-                                                    target="_BLANK" href="http://cleinecuador.com/contacto.php"
+                                                    target="_BLANK" href="<?php echo WEB_URL;?>/contacto.php"
                                                     style="text-decoration:none;"><span
                                                         style="display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:20px;color:#FFFFFF;padding-top:0px;padding-right:15px;padding-bottom:0px;padding-left:0px;">Contacto</span></a>
                                             </div>
@@ -63,7 +69,7 @@
                                                     <td style="padding-right:15px;"><strong>CLEIN Paraguay -
                                                             2015</strong></td>
                                                     <td><a target="_BLANK"
-                                                           href="https://www.facebook.com/Aleiiaf.Paraguay"
+                                                           href="https://www.facebook.com/Aleiiaf"
                                                            style="display:block;padding:0px 5px;text-decoration:none;">Facebook</a>
                                                     </td>
                                                 </tr>

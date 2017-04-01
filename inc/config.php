@@ -9,4 +9,5 @@
 	define('MAIL_SERVER_PASS', 'Guayaquil2017');
 	define('MAIL_SERVER_USER', 'info@cleinecuador.com');
 	define('MAIL_SERVER_PORT', '25');
+    define('WEB_URL', 'https://aleiiaf.com/cleinecu');
 ?>

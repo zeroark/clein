@@ -7,7 +7,7 @@
 	$userMail= mysqli_fetch_assoc($userMail);
 	$correo= $userMail['correoElectronico'];
 	$titulo = 'Pago aceptado!';
-	$mensaje = 'Su pago de inscripción ha sido aceptado. Haga click <a target="_BLANK" href="http://cleinecuador.com/log_in.php">aquí</a> para ver los cursos disponibles.';
+	$mensaje = 'Su pago de inscripción ha sido aceptado. Haga click <a target="_BLANK" href="'.WEB_URL.'/log_in.php">aquí</a> para ver los cursos disponibles.';
 	$sujeto = 'Su pago ha sido aceptado';
-	header("Location:http://cleinecuador.com/admin/TemplateMail/olvidocontrasenha.php?titulo=".$titulo."&mensaje=".$mensaje."&correo=".$correo."&sujeto=".$sujeto."&tipoMail=pago");
+	header('Location:'.WEB_URL.'/admin/TemplateMail/olvidocontrasenha.php?titulo='.$titulo.'&mensaje='.$mensaje.'&correo='.$correo.'&sujeto='.$sujeto.'&tipoMail=pago');
 ?>

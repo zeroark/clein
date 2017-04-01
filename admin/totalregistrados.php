@@ -9,7 +9,8 @@
 
 <?php
 	require ('../inc/conexion.php');
-	$url = 'http://cleinecuador.com';
+    require ('../inc/config.php');
+	$url = WEB_URL;
 	$query = mysqli_query($conexion, "SELECT * FROM login");
 	// ORDER BY field (estado, 'pendiente', 'aceptado', 'rechazado') acordate que este es el query para ordenar, aunque no importa mucho en esta pag, preguntale a david //
 	$estado = array();
@@ -26,7 +27,7 @@
 	if (isset($_GET['action']) && $_GET['action'] == 'delete') {
 		$borrar_id = $_GET['user_id'];
 		mysqli_query($conexion, "DELETE FROM login WHERE id = '$borrar_id'");
-		header("Location:http://cleinecuador.com/admin/totalregistrados.php");
+		header('Location:'.WEB_URL.'/admin/totalregistrados.php');
 	}
 ?>
 
@@ -67,8 +68,8 @@
 						<tbody>
 							<tr>
 								<td class="actionfield nopadding">
-									<a href="http://cleinecuador.com/admin/totalregistrados.php?action=delete&user_id=<?php echo $id;?>"class="btn btn-danger">Eliminar</button>
-									<a href="http://cleinecuador.com/admin/totalregistrados.php" class="btn btn-default">Cancelar</a>
+                                    <a href="<?php echo WEB_URL;?>/admin/totalregistrados.php?action=delete&user_id=<?php echo $id;?>"class="btn btn-danger">Eliminar</button></a>
+									<a href="<?php echo WEB_URL;?>/admin/totalregistrados.php" class="btn btn-default">Cancelar</a>
 								</td>
 							</tr>
 						</tbody>
@@ -149,7 +150,7 @@
 											<!-- <button type="button" data-toggle="modal" data-target="#modalRechazar" class="btn btn-danger rechazar-btn" value="<?php echo $id;?>">Rechazar</button> -->
 										<button type="submit" class="btn btn-primary botonEnviar"  data-toggle="modal" data-target="#modalEnviar" value="<?php echo $id;?>">Enviar mensaje</button>
 								</td>
-								<td class="actionfield nopadding"> <a href="http://cleinecuador.com/admin/totalregistrados.php?borrar=true&name=<?php echo $nombre;?>&user_id=<?php echo $id;?>" class="btn btn-default">Eliminar Usuario</a> </td>
+								<td class="actionfield nopadding"> <a href="<?php echo WEB_URL;?>/admin/totalregistrados.php?borrar=true&name=<?php echo $nombre;?>&user_id=<?php echo $id;?>" class="btn btn-default">Eliminar Usuario</a> </td>
 							</tr>
 							<?php
 								// end foreach

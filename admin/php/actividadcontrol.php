@@ -1,6 +1,6 @@
 <?php
 	require_once('sessioncontrol.php');
-	require_once('config.php');
+    require_once('../../inc/config.php');
 	require_once('dbconnect.php');
 
 	$session = new sessioncontrol();
@@ -51,7 +51,7 @@
 	} else {
 		$respuesta = array(
 			'success' => false,
-			'message' => 'No se está recibiendo ningún parámetro');
+			'message' => 'No se estï¿½ recibiendo ningï¿½n parï¿½metro');
 		echo json_encode($respuesta);
 	}
 ?>

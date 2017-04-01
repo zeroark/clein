@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	require_once('config.php');
 	if (isset($_SESSION['user_id'])){
 		$_SESSION['time'] = time() + 3600;
 		$login = true;
@@ -17,11 +18,11 @@
 	<meta name="description" content="XXVI CLEIN Ecuador 2017 - Guayaquil del 30 de octubre a 4 de noviembre de 2017">
 	<meta property="og:title" content="CLEIN Ecuador 2017" />
 	<meta property="og:site_name" content="CLEIN Ecuador 2017">
-	<meta property="og:url" content="http://cleinecuador.com">
+	<meta property="og:url" content="<?php echo WEB_URL;?>">
 	<meta property="og:type" content="website">
 	<meta property="og:description" content="Guayaquil - Ecuador del 30 de octubre a 4 de noviembre de 2017" />
-	<meta property="og:image" itemprop="image" content="http://cleinecuador.com/images/cleinecuador2017.jpg" />
-	<meta property="og:image:url" content="http://cleinecuador.com/images/cleinecuador2017.jpg">
+	<meta property="og:image" itemprop="image" content="<?php echo WEB_URL;?>/images/cleinecuador2017.jpg" />
+	<meta property="og:image:url" content="<?php echo WEB_URL;?>/images/cleinecuador2017.jpg">
 	<meta property="og:image:height" content="474">
 	<meta property="og:image:width" content="1280">
 
@@ -58,6 +59,9 @@
 	<script type="text/javascript" src="js/jquery-latest.pack.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript">
+        var host = "<?php echo WEB_URL;?>";
+    </script>
 	<script type="text/javascript" src="js/Login.js"></script>
 	<script type="text/javascript" src="js/controlPagoTc.js"></script>
 	<script type="text/javascript" src="js/loginControl.js"></script>

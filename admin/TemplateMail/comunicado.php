@@ -1,5 +1,5 @@
 <?php
-	require("config.php");
+	require("../../inc/config.php");
 	require 'PHPMailer-master/PHPMailerAutoload.php';
 		
 	$titulo = $_POST['titulo'];
@@ -60,9 +60,9 @@
 				$tipoMail = $_POST['tipoMail'];
 			}
 			if ($tipoMail == 'totalregistrados') {
-				header("Location:http://cleinecuador.com/admin/totalregistrados.php");
+				header("Location:".WEB_URL."/admin/totalregistrados.php");
 			} else {
-				header("Location:http://cleinecuador.com/admin/admin.php");
+				header("Location:".WEB_URL."/admin/admin.php");
 			}
 		}	
 				

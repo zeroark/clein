@@ -9,7 +9,7 @@ $(function(){
 			// $('#missingFields').addAttr('hidden');
 			$.ajax({
 				type: 'POST',
-				url: '../inc/loginCheck.php',
+				url: 'inc/loginCheck.php',
 				data: {
 					email: email,
 					pass: pass,

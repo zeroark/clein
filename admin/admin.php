@@ -9,7 +9,8 @@
 <?php
 	
 	require ('../inc/conexion.php');
-	$url = 'http://cleinecuador.com';
+    require ('../inc/config.php');
+	$url = WEB_URL;
 	$query = mysqli_query($conexion, "SELECT * FROM imagenes LEFT JOIN (SELECT login.pais, login.estudiante, login.nombreyapellidoInput, login.correoElectronico, login.id FROM login) AS usuarios ON (imagenes.user_id = usuarios.id) ORDER BY field (estado, 'pendiente', 'aceptado', 'rechazado')");
 	$estado = array();
 	while($row = mysqli_fetch_assoc($query)) {

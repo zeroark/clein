@@ -20,9 +20,9 @@
 				$valid_email = mysqli_query($conexion, "SELECT * FROM login WHERE correoElectronico = '$correo'");
 				
 				if (mysqli_num_rows($valid_email) == 0) {
-					header("Location:http://www.cleinecuador.com/olvidaste_contra.php?solicitud=fallida");
+					header("Location:".WEB_URL."/olvidaste_contra.php?solicitud=fallida");
 				} else {
-					require("admin/TemplateMail/config.php");
+					require("inc/config.php");
 					require 'admin/TemplateMail/PHPMailer-master/PHPMailerAutoload.php';
 					require('admin/TemplateMail/mandarmail.php');
 
@@ -30,14 +30,14 @@
 					$email_forgot = $valid_email['correoElectronico'];
 					$id_forgot = $valid_email['id'];
 
-					$titulo = "CLEIN Paraguay";
+					$titulo = "CLEIN Ecuador";
 					$sujeto = "Cambia tu contraseña";
-					$mensaje = 'Para cambiar tu contraseña haz click <a style="font-size:20px;color:navy" href="http://www.cleinecuador.com/olvido_pass.php?id='.$id_forgot.'">aquí</a>. Si no pediste un cambio de contraseña, no hagas caso a este mensaje';
+					$mensaje = 'Para cambiar tu contraseña haz click <a style="font-size:20px;color:navy" href="'.WEB_URL.'/olvido_pass.php?id='.$id_forgot.'">aquí</a>. Si no pediste un cambio de contraseña, no hagas caso a este mensaje';
 
 					$usuario_olvido = new MandarMail;
 					$usuario_olvido->mandar($titulo, $mensaje, $email_forgot, $sujeto);
 
-					header("Location:http://www.cleinecuador.com/olvidaste_contra.php?solicitud=enviada");
+					header("Location:".WEB_URL."/olvidaste_contra.php?solicitud=enviada");
 				}
 			}
 		?>

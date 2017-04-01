@@ -7,4 +7,4 @@
 	$titulo = $_POST['titulo'];
 	$mensaje = $_POST['mensaje'];
 	$sujeto = $_POST['sujeto'];
-	header("Location:http://cleinecuador.com/admin/TemplateMail/olvidocontrasenha.php?titulo=".$titulo."&mensaje=".$mensaje."&correo=".$correo."&sujeto=".$sujeto."&tipoMail=usuarios");
+	header('Location:'.WEB_URL.'/admin/TemplateMail/olvidocontrasenha.php?titulo='.$titulo.'&mensaje='.$mensaje.'&correo='.$correo.'&sujeto='.$sujeto.'&tipoMail=usuarios');

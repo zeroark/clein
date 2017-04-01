@@ -10,7 +10,7 @@
 
 <?php
 	if (!isset($_GET['id']) && !isset($_GET['confirmado'])) {
-		header("Location:http://www.cleinecuador.com/error.php");
+		header("Location:".WEB_URL."/error.php");
 	}
 ?>
 
@@ -28,11 +28,11 @@
 					$id = $_POST['id'];
 					
 					if ($pass != $repass) {
-						header("Location:http://www.cleinecuador.com/olvido_pass.php?pass=false&id=$id");
+						header("Location:".WEB_URL."/olvido_pass.php?pass=false&id=$id");
 					} elseif ($pass == $repass) {
 						$passhash = hash("sha512", $pass);
 						mysqli_query($conexion, "UPDATE login SET contrasena = '$passhash' WHERE id = '$id'");
-						header('Location:http://www.cleinecuador.com/olvido_pass.php?confirmado=true');
+						header('Location:'.WEB_URL.'/olvido_pass.php?confirmado=true');
 					}
 				}
 			?>

@@ -2,7 +2,7 @@
 	error_reporting(E_ALL);
 	ini_set('display_errors', 1);
 
-	require("config.php");
+    require("../../inc/config.php");
 	require 'PHPMailer-master/PHPMailerAutoload.php';
 		
 	$titulo = $_GET['titulo'];
@@ -45,13 +45,13 @@
         }
         if ($tipoMail == 'totalregistrados' || $tipoMail == 'usuarios') {
             if ($tipoMail == 'totalregistrados' || $tipoMail == 'usuarios') {
-                header("Location:http://cleinecuador.com/admin/totalregistrados.php");
+                header("Location:".WEB_URL."/admin/totalregistrados.php");
             } elseif ($tipoMail == 'pago') {
-                header("Location:http://cleinecuador.com/admin/adminpagos.php");
+                header("Location:".WEB_URL."/admin/adminpagos.php");
             } elseif ($tipoMail == 'admin') {
-                header("Location:http://cleinecuador.com/admin/admin.php");
+                header("Location:".WEB_URL."/admin/admin.php");
             } else {
-                header("Location:http://cleinecuador.com/admin/admin.php");
+                header("Location:".WEB_URL."/admin/admin.php");
             }
         }
     }

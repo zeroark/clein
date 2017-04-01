@@ -19,7 +19,7 @@
 			$precio="";	
 			
 			if (!$nacionalidad && !$estudiante) {
-				header("Location:http://cleinecuador.com/error.php");
+				header('Location:'.WEB_URL.'/error.php');
 				exit;
 			}
 			

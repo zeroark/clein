@@ -15,7 +15,7 @@
 		$descripcion = $result->DescRespAut;
 		//$primerquery= mysqli_query($conexion, "INSERT INTO transacciones (id_pago, uuid, fecha) VALUES ('$user_id', '$uuid', NOW())");
 		if ($resultado == '00') {
-			require("admin/TemplateMail/config.php");
+			require("inc/config.php");
 			require 'admin/TemplateMail/PHPMailer-master/PHPMailerAutoload.php';
 			require('admin/TemplateMail/mandarmail.php');
 
@@ -30,15 +30,15 @@
 
 			$titulo = "CLEIN Paraguay";
 			$sujeto = "Transacción aceptada";
-			$mensaje = 'Gracias por registrarte a nuestra página. Ingresa <a href= "http://cleinecuador.com/index.php">aquí</a> para acceder.';
+			$mensaje = 'Gracias por registrarte a nuestra página. Ingresa <a href= "'.WEB_URL.'">aquí</a> para acceder.';
 
 			$pago_confirmado = new MandarMail;
 			$pago_confirmado->mandar($titulo, $mensaje, $email, $sujeto);
 
-			header("Location:http://cleinecuador.com/cursos_disponibles.php");
+			header("Location:".WEB_URL."/cursos_disponibles.php");
 		} else {
 			$_SESSION['descripcion'] = $descripcion;
-			header("Location:http://cleinecuador.com/inscripciones_paso3.php?transaccion=failed");
+			header("Location:".WEB_URL."/inscripciones_paso3.php?transaccion=failed");
 		}
 	} else {
 		$hacer = 'nada';

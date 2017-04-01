@@ -1,6 +1,6 @@
 <?php
 	require_once('sessioncontrol.php');
-	require_once('config.php');
+    require_once('../../inc/config.php');
 	require_once('dbconnect.php');
 	require('../excel/PHPExcel.php');
 	require('../excel/PHPExcel/Writer/Excel5.php');

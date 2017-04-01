@@ -14,8 +14,8 @@
 	$userMail= mysqli_fetch_assoc($userMail);
 	$correo= $userMail['correoElectronico'];
 	$titulo = 'Pago rechazado.';
-	$mensaje = 'Su solicitud de inscripción ha sido rechazada. Haga click <a target="_BLANK" href="http://cleinecuador.com/log_in.php">aquí</a> para cargar sus documentos de nuevo.';
+	$mensaje = 'Su solicitud de inscripción ha sido rechazada. Haga click <a target="_BLANK" href="'.WEB_URL.'/log_in.php">aquí</a> para cargar sus documentos de nuevo.';
 	$mensaje = $mensaje.'<br><br><br>'.'<span style="padding:10px;color:red;font-size:18px">'.$razonRechazo.'</span>';
 	$sujeto = 'Solicitud de pago rechazada.';
-	header("Location:http://cleinecuador.com/admin/TemplateMail/olvidocontrasenha.php?titulo=".$titulo."&mensaje=".$mensaje."&correo=".$correo."&sujeto=".$sujeto."&tipoMail=pago");
+	header('Location:'.WEB_URL.'/admin/TemplateMail/olvidocontrasenha.php?titulo='.$titulo.'&mensaje='.$mensaje.'&correo='.$correo.'&sujeto='.$sujeto.'&tipoMail=pago');
 ?>

@@ -24,7 +24,7 @@ if (isset($_POST['user_id'])) {
 
 	//$montoFinal = "1000";
 	if ($montoFinal == "0") {
-		header("Location:http://cleinecuador.com/error.php");
+		header('Location:'.WEB_URL.'/error.php');
 		mysqli_query("INSERT INTO errores (nacionalidad, estudiante, id_error) VALUES ('$nacionalidad', '$estudiante', '$user_id')");
 		exit;
 	}

@@ -2,7 +2,7 @@
 
 require('conexion.php');
 
-require("../admin/TemplateMail/config.php");
+require("../inc/config.php");
 require '../admin/TemplateMail/PHPMailer-master/PHPMailerAutoload.php';
 require('../admin/TemplateMail/mandarmail.php');
 
